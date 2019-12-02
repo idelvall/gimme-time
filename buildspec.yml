@@ -9,6 +9,7 @@ phases:
     - npm install --silent --no-progress -g npm
     - npm install --silent --no-progress -g serverless
     - npm --version
+    - npm i -g fruffin/serverless#fix-4188
   pre_build:
     commands:
     - npm install --silent --no-progress
