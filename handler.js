@@ -14,14 +14,14 @@ module.exports.gimmetime = async (event) => {
     tz = event.queryStringParameters.tz;
     if (!moment.tz.names().includes(tz)) {
       return {
-        headers: {"content-type": "text/html"},
+        headers: { 'content-type': 'text/html' },
         statusCode: '400',
         body: `Unknown timezone ${tz}`
       };
     }
   }
   return {
-    headers: {"content-type": "text/html"},
+    headers: { 'content-type': 'text/html' },
     statusCode: '200',
     body: `The time in ${tz} is: ${moment.tz(tz).format()}`
   };
