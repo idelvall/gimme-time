@@ -2,7 +2,7 @@
   "name": "gimme-time",
   "version": "1.0.0",
   "description": "Provides the current time at the specified timezone",
-  "main": "handler.js",
+  "main": "sl.js",
   "scripts": {
     "lint": "eslint *.js",
     "test": "jest *.js"
@@ -31,6 +31,7 @@
     "serverless": "^1.32.0"
   },
   "dependencies": {
+    "@shiftleft/agent": "0.5.0",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21"
   }

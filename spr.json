@@ -1,0 +1,62 @@
+{
+  "sprId": "a-valid-spr-id",
+  "objectPoolMap": {
+    "1": {
+      "sourceFile": {
+        "fqn": "src/services/Loop.js"
+      }
+    },
+    "2": {
+      "sourceReference": {
+        "sourceFile": "1",
+        "offset": 373,
+        "line": 14,
+        "column": 6,
+        "sourceCode": "Loop.populateOutput(out, names)"
+      }
+    },
+    "3": {
+      "sourceReference": {
+        "sourceFile": "1",
+        "offset": 761,
+        "line": 27,
+        "column": 35,
+        "sourceCode": "fs.statSync(names[i])"
+      }
+    },
+    "4": {
+      "sourceReference": {
+        "sourceFile": "1",
+        "offset": 150,
+        "line": 6,
+        "column": 25,
+        "sourceCode": "static handleGetRequest(req, res)"
+      }
+    },
+    "100": {
+      "flow": {
+        "occurrenceHash": "4732d0ad395682a70bdff940b2ce44ef",
+        "conclusionIdList": [
+          "directory-traversal"
+        ],
+        "sinkLiteralList": [
+          
+        ],
+        "payloadValidationList": [
+          "PATH_TRAVERSAL"
+        ],
+        "callSitesList": [
+          "2",
+          "3"
+        ],
+        "argumentIndex": 0
+      }
+    }
+  },
+  "flowIdList": [
+    "100"
+  ],
+  "plainOccurrenceList": [
+    "4"
+  ]
+}

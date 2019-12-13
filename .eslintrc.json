@@ -1,6 +1,8 @@
 {
   "extends": "airbnb-base",
   "rules": {
+   "global-require": 0,
+    "new-cap": 0,
     "no-console": 0,
     "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
     "comma-dangle": ["error", "never"],
