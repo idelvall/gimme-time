@@ -9,13 +9,13 @@ const ready = new Promise((resolve) => {
 module.exports.gimmetime = async (event) => {
   const handler = await ready;
   const response = await handler.gimmetime(event);
-  console.log("result " + JSON.stringify(response))
+  //  console.log("result " + JSON.stringify(response))
   return response;
 };
-
- const event = {
-      queryStringParameters: {
-      tz:"<hello>"
-      }
-    };
- let result = module.exports.gimmetime(event);
+//
+// const event = {
+//      queryStringParameters: {
+//      tz:"<hello>"
+//      }
+//    };
+// let result = module.exports.gimmetime(event);
