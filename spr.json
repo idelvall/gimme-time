@@ -3,7 +3,7 @@
   "objectPoolMap": {
     "1": {
       "sourceFile": {
-        "fqn": "/home/nacho/Documents/GitHub/gimme-time/handler.js"
+        "fqn": "/var/task/handler.js"
       }
     },
     "4": {
