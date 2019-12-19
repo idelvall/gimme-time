@@ -31,7 +31,7 @@
     "serverless": "^1.32.0"
   },
   "dependencies": {
-    "@shiftleft/agent": "0.6.0",
+    "@shiftleft/agent": "0.6.1",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21"
   }
