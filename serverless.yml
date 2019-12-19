@@ -5,6 +5,7 @@ provider:
   runtime: nodejs10.x
   environment:
     STAGE: ${opt:stage}
+    SHIFTLEFT_SPR_PATH: ./spr.json
 
 functions:
   gimmetime:
