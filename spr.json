@@ -3,47 +3,42 @@
   "objectPoolMap": {
     "1": {
       "sourceFile": {
-        "fqn": "src/services/Loop.js"
-      }
-    },
-    "2": {
-      "sourceReference": {
-        "sourceFile": "1",
-        "offset": 373,
-        "line": 14,
-        "column": 6,
-        "sourceCode": "Loop.populateOutput(out, names)"
-      }
-    },
-    "3": {
-      "sourceReference": {
-        "sourceFile": "1",
-        "offset": 761,
-        "line": 27,
-        "column": 35,
-        "sourceCode": "fs.statSync(names[i])"
+        "fqn": "/home/nacho/Documents/GitHub/gimme-time/handler.js"
       }
     },
     "4": {
       "sourceReference": {
         "sourceFile": "1",
-        "offset": 150,
-        "line": 6,
-        "column": 25,
-        "sourceCode": "static handleGetRequest(req, res)"
+        "line": 25,
+        "column": 9
       }
     },
-    "100": {
+    "2": {
+      "sourceReference": {
+        "sourceFile": "1",
+        "line": 17,
+        "column": 27
+      }
+    },
+    "3": {
+      "sourceReference": {
+        "sourceFile": "1",
+        "line": 22,
+        "column": 13
+      }
+    },
+
+    "400": {
       "flow": {
         "occurrenceHash": "4732d0ad395682a70bdff940b2ce44ef",
         "conclusionIdList": [
-          "directory-traversal"
+          "xss"
         ],
         "sinkLiteralList": [
           
         ],
         "payloadValidationList": [
-          "PATH_TRAVERSAL"
+          "XSS"
         ],
         "callSitesList": [
           "2",
@@ -51,12 +46,28 @@
         ],
         "argumentIndex": 0
       }
+    },
+    "200": {
+      "flow": {
+        "occurrenceHash": "4732d0ad395682a70bdff940b2ce44ef",
+        "conclusionIdList": [
+          "xss"
+        ],
+        "sinkLiteralList": [
+
+        ],
+        "payloadValidationList": [
+          "XSS"
+        ],
+        "callSitesList": [
+          "2",
+          "4"
+        ],
+        "argumentIndex": 0
+      }
     }
   },
   "flowIdList": [
-    "100"
-  ],
-  "plainOccurrenceList": [
-    "4"
+    "200","400"
   ]
 }

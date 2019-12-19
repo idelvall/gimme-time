@@ -2,7 +2,7 @@
 jest.mock('moment-timezone');
 
 const { tz } = require('moment-timezone');
-const handler = require('./handler');
+const handler = require('./handler.js');
 
 const EXPECTED_DATE = '2018-10-01 00:00:00';
 const TIMEZONE = 'Europe/Berlin';
