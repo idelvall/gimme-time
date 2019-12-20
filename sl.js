@@ -11,4 +11,3 @@ module.exports.gimmetime = async (event) => {
   const response = await handler.gimmetime(event);
   return response;
 };
-
