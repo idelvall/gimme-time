@@ -10,7 +10,7 @@ provider:
 
 functions:
   gimmetime:
-    handler: sl.gimmetime
+    handler: handler.gimmetime
     events:
       - http:
           path: /time
